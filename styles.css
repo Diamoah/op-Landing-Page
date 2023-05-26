@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.top{
+    background-color: #1F2937;
+    width: 100vw;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    gap: 360px;
+    color: #F9FAF8;
+}
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.nav h1{
+    font-size: 25px;;
+}
+.nav a{
+    text-decoration: none;
+    color: #E5E7EB;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    padding: 20px;
+}
+.hero .hero-text{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+.hero-text h2{
+    color: #F9FAF8;
+    font-size: 35px;
+}
+.hero-text p{
+    color: #E5E7EB;
+}
+.hero-text button{
+    width: 100px;
+    height: 30px;
+    border-radius: 7px;
+    font-size: 17px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
+}
+.hero-img img{
+    width: 300px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.illustrations{
+    display: flex;
+    gap: 8px;
+}
+.pic{
+    
+    width: 200px;
+    margin: 8px;
+    border-radius: 5px;
+}
+.pic img{
+    width: 200px;
+    border-radius: 5px;
+}
+.quote{
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 40vh;
+    padding: 30px;
+}
+blockquote{
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+}
+figcaption{
+    font-weight: bold;
+    font-size: 25px;
+}
+#sign-up{
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.call-to-action{
+    background-color: #3882F6;
+    width: 80vw;
+    height: 10vh;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #E5E7EB;
+}
+#sign-up-header{
+    font-size: 25px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+.call-to-action button{
+    color: #E5E7EB;
+    background-color: transparent;
+    border: #E5E7EB solid 2px;
+    border-radius: 5px;
+    width: 90px;
+    height: 30px
+}
+.footer{
+    background-color: #1F2937;
+    color:#F9FAF8;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+}
